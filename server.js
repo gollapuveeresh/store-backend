@@ -12,6 +12,7 @@ const app = express();
 
 // Middleware
 app.use(cors({ origin: "https://vereesh-style-hub.vercel.app/", credentials: true }));
+// changed
 app.use(express.json());
 
 // Routes
